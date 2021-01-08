@@ -61,7 +61,8 @@ export declare class VirtualScrollerComponent implements OnInit, OnChanges, OnDe
     protected _enableUnequalChildrenSizes: boolean;
     get enableUnequalChildrenSizes(): boolean;
     set enableUnequalChildrenSizes(value: boolean);
-    RTL: boolean;
+    set RTL(rtl: boolean);
+    reverse: boolean;
     useMarginInsteadOfTranslate: boolean;
     modifyOverflowStyleOfParentScroll: boolean;
     stripedTable: boolean;
